@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Поле для вводу повідомлення -->
+    <EditText
+        android:id="@+id/message_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть повідомлення"
+        android:layout_marginTop="150dp" />
+
+    <!-- Кнопка: Надіслати у нове вікно -->
+    <Button
+        android:id="@+id/send_internal_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Надіслати у нове вікно"
+        android:layout_marginTop="16dp" />
+
+    <!-- Кнопка: Надіслати через інші додатки -->
+    <Button
+        android:id="@+id/send_external_button"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Поділитися через інші додатки" />
+
+</LinearLayout>
